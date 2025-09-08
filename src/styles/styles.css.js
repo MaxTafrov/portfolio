@@ -1,19 +1,38 @@
-import styled from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
 
 const css = {
+	GlobalStyle: createGlobalStyle`
+	*{
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+	font-family: 'Montserrat', sans-serif;
+	}
+	`,
+
+	AppOverflow: styled.div`
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		margin-top: 35px;
+	`,
+
 	HeaderContainer: styled.header`
 		display: flex;
-		justify-content: space-between;
+		justify-content: center;
 		align-items: center;
 		flex-direction: row;
 		padding: 10px 20px;
 	`,
+
 	Logo: styled.div`
-		display: block;
+		display: flex;
 		color: #333;
 		font-size: 36px;
-		width: 15%;
+		width: 40%;
+		margin-right: 50px;
 	`,
+
 	HeaderButton: styled.button`
 		background-color: #adadad;
 		color: black;
@@ -27,32 +46,34 @@ const css = {
 		&:hover {
 			background-color: #808080;
 		}
+		&:nth-child(2) {
+			margin-right: 40px;
+		}
 	`,
 	MenuContainer: styled.nav`
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-direction: row;
-		margin-left: -15%;
+		margin: 0 auto;
+
 		width: 100%;
 	`,
 
 	MainContainer: styled.main`
 		display: flex;
 		flex-direction: column;
-		align-items: start;
+		align-items: center;
 		justify-content: flex-start;
 		margin-top: 15px;
-
-		height: calc(100vh - 160px);
+		transition: background-color 0.3s ease;
 		&:hover {
 			background-color: #faf7f7;
 		}
 	`,
-	MainTitle: styled.h1`
+	MainTitle: styled.h2`
 		padding-left: 20px;
-
-		margin-bottom: 20px;
+		align-items: center;
 	`,
 	MainText: styled.p`
 		display: flex;
@@ -61,6 +82,7 @@ const css = {
 		max-width: 600px;
 		text-align: center;
 		padding-left: 10px;
+		align-items: center;
 	`,
 
 	FooterContainer: styled.footer`
@@ -68,7 +90,6 @@ const css = {
 		flex-direction: row;
 		align-items: center;
 		justify-content: center;
-
 		position: relative;
 		width: 100%;
 		height: 80px;
