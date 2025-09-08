@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router'
 
 const { HeaderContainer, Logo, MenuContainer, HeaderButton } = css
 
-const Header = props => {
+const Header = ({ onToggleTheme, theme }) => {
 	const navigate = useNavigate()
 
 	return (
@@ -14,7 +14,9 @@ const Header = props => {
 				<HeaderButton onClick={() => navigate('/home')}>Home</HeaderButton>
 				<HeaderButton onClick={() => navigate('/about')}>About me</HeaderButton>
 			</MenuContainer>
-			<HeaderButton> Mode</HeaderButton>
+			<HeaderButton onClick={onToggleTheme}>
+				{theme === 'dark' ? 'Light' : 'Dark'}
+			</HeaderButton>
 			<HeaderButton>RU</HeaderButton>
 		</HeaderContainer>
 	)
