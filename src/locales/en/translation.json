@@ -1,0 +1,20 @@
+{
+	"aboutMe": {
+		"text1": "Hi! My name is Maksym, I'm a junior frontend developer passionate about creating web applications. I've experience working with HTML, CSS, JS and React, that you can see below.",
+		"text2": "I enjoy learning new technologies, solving problems. My goal is to grow as developer, gain valuable experience in teamwork and contribute in real projects."
+	},
+	"headerTranslate": {
+		"logo": "Portfolio",
+		"home": "Home",
+		"aboutMeHeader": "About Me",
+		"light": "Светлая тема",
+		"dark": "Тёмная тема"
+	},
+	"home": {
+		"skills": "Skills",
+		"projects": "Projects",
+		"elementary": "Elementary",
+		"pre-intermediate": "Pre-intermediate",
+		"intermediate": "Intermediate(b1-b2)"
+	}
+}

@@ -24,7 +24,7 @@ export const GlobalStyles = createGlobalStyle`
 		padding: 0;
 		background-color: var(--bg-color);
 		color: var(--text-color);
-		transition: background-color 0.3s ease, color 0.3s ease;
+		transition: background-color 0.5s ease, color 0.5s ease;
 	}
 	`
 const css = {
@@ -62,7 +62,7 @@ const css = {
 		border-radius: 5px;
 		cursor: pointer;
 		font-size: 18px;
-		transition: background-color 0.3s ease;
+		transition: background-color 0.5s ease;
 		&:hover {
 			background-color: #808080;
 		}
@@ -108,8 +108,10 @@ const css = {
 		align-items: center;
 		justify-content: center;
 		position: relative;
+		bottom: 0;
+		left: 0;
 		width: 100%;
-		height: 80px;
+		height: 50px;
 		background-color: var(--bg-footer);
 	`,
 	FooterText: styled.span`

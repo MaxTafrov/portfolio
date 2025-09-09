@@ -7,13 +7,21 @@ import Links from './views/global/pages/links'
 import { Routes, Route } from 'react-router'
 import css from './styles/styles.css'
 import { GlobalStyles } from './styles/styles.css'
+import { useTranslation } from 'react-i18next'
+import './i18n'
 
 function App(props) {
+	const { t, i18n } = useTranslation()
+
+	const changeLanguage = lng => {
+		i18n.changeLanguage(lng)
+	}
+
 	const { AppOverflow } = css
 
-	const { setShowPage } = useState('main')
+	const [showPage, setShowPage] = useState('home')
 
-	const [theme, setTheme] = useState('light')
+	const [theme, setTheme] = useState('dark')
 	useEffect(() => {
 		document.body.className = theme
 	}, [theme])
@@ -29,7 +37,8 @@ function App(props) {
 				<Header
 					theme={theme}
 					onToggleTheme={toggleTheme}
-					onClick={setShowPage}
+					onChangeLanguage={changeLanguage}
+					lng={i18n.language}
 				/>
 				<Routes>
 					<Route path={'/home'} element={<Main />} />
