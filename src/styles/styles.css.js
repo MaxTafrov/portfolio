@@ -35,6 +35,11 @@ const css = {
 		justify-content: center;
 		align-items: center;
 		margin-top: 35px;
+		padding-bottom: 50px;
+
+		@media (max-width: 768px) {
+			padding-bottom: 80px;
+		}
 	`,
 
 	HeaderContainer: styled.header`
@@ -68,25 +73,24 @@ const css = {
 		background-color: var(--bg-button);
 		color: var(--text-color);
 		border: none;
-		padding: 10px 20px;
-		margin-left: 10px;
 		border-radius: 5px;
 		cursor: pointer;
 		font-size: 18px;
+		padding: 10px 20px;
+		margin-left: 10px;
 		transition: background-color 0.5s ease;
 
 		&:hover {
 			background-color: #808080;
 		}
 
-		&:nth-child(2) {
-			margin-right: 40px;
-		}
-
 		@media (max-width: 768px) {
 			font-size: 16px;
-			padding: 8px 16px;
-			margin: 5px 0;
+			padding: 8px 12px;
+			margin-left: 0;
+			width: 100%;
+			max-width: 200px;
+			margin-bottom: 10px;
 		}
 	`,
 
@@ -100,7 +104,6 @@ const css = {
 
 		@media (max-width: 768px) {
 			flex-direction: column;
-			gap: 10px;
 		}
 	`,
 

@@ -34,7 +34,7 @@ function App(props) {
 	return (
 		<>
 			<GlobalStyles />
-			<AppOverflow style={{ paddingBottom: '50px' }}>
+			<AppOverflow>
 				<Header
 					theme={theme}
 					onToggleTheme={toggleTheme}
@@ -50,15 +50,15 @@ function App(props) {
 						transition={{ duration: 0.3, ease: 'easeInOut' }}
 					>
 						<Routes location={location} key={location.pathname}>
-							<Route path={'/'} element={<Main />} />
+							<Route path={'/'} element={<AboutMe />} />
 							<Route path={'/home'} element={<Main />} />
 							<Route path={'/about'} element={<AboutMe />} />
 							<Route path={'/links'} element={<Links />} />
 						</Routes>
 					</motion.div>
 				</AnimatePresence>
-				<Footer />
 			</AppOverflow>
+			<Footer />
 		</>
 	)
 }
