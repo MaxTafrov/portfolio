@@ -56,7 +56,7 @@ npm install
 npm start
 ```
 # 🌍 Live Demo
- 👉 [Check it out here](https://vercel.com/loler20017-6252s-projects/portfolio/Ct9zL4cKfZzXEkhDNVq2xxhopVKT)
+ 👉 [Check it out here](https://portfolio-liard-three-m6tyf36olx.vercel.app/)
 
 ## 📬 Contact Me
 * 🌐 GitHub: [Max Tafrov](https://github.com/usernamehttps://github.com/MaxTafrov)
@@ -65,3 +65,4 @@ npm start
 * 🔗 LinkedIn: [Maxim Tafrov](https://www.linkedin.com/in/maxim-tafrov-56a243378/)
 
 ## ⭐ If you like this project, consider giving it a star — it really helps and keeps me motivated! 😉
+
