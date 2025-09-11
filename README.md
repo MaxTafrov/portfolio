@@ -1,63 +1,67 @@
-# 🌟 Мое портфолио
+# 🌟 My Portfolio
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 ![i18next](https://img.shields.io/badge/i18next-26A69A?style=for-the-badge&logo=i18next&logoColor=white)
 
-Мое персональное портфолио 👨‍💻 — сайт, где можно узнать обо мне, моих проектах и способах связи.  
-Сделано на **React** с анимациями и поддержкой мультиязычности 🌍.
+Welcome to my personal portfolio 👨‍💻 — a website where you can explore who I am, the projects I’ve built, and how to get in touch.  
+Built with **React**, animations, and full multilingual support 🌍.
 
 ---
 
-## 🚀 Функции
+## 🚀 Features
 
-✨ Анимации переходов между страницами  
-🌑 Переключение темы (Light/Dark)  
-🌍 Переводы через i18next  
-📱 Адаптивный дизайн (desktop + mobile)  
-🔗 Ссылки на соцсети
-
+✨ Smooth page transition animations  
+🌑 Theme switcher (Light / Dark)  
+🌍 Multilingual support with i18next  
+📱 Fully responsive design (desktop + mobile)  
+🔗 Social media integration  
 
 ---
 
-## 🛠️ Технологии
+## 🛠️ Tech Stack
 
 - ⚛️ **React**
 - 🛣️ **React Router**
 - 🎞️ **Framer Motion**
 - 🌍 **i18next**
-- 🎨 **CSS-модули / styled-components**
+- 🎨 **CSS Modules / styled-components**
 
 ---
 
-## ⚡ Установка и запуск
+## 📂 Projects
+
+Here are some of the featured projects from my portfolio:
+
+- 🎨 **Portfolio Website** – The site you’re looking at right now. Built with React, animations, and i18next for multilingual support.  
+- 📝 **Todo App** – A task manager with light/dark mode and local storage persistence.  
+- 🔗 **Social Links Page** – A simple, responsive page with all my contact links in one place.  
+
+---
+
+## ⚡ Getting Started
 
 ```bash
-# Клонировать проект
+# Clone the repo
 git clone https://github.com/username/portfolio.git
 
-# Перейти в папку
+# Navigate into the project folder
 cd portfolio
 
-# Установить зависимости
+# Install dependencies
 npm install
 
-# Запустить проект
+# Start the development server
 npm start
 ```
-🌍 Демо
+# 🌍 Live Demo
+ 👉 [Check it out here](https://vercel.com/loler20017-6252s-projects/portfolio/Ct9zL4cKfZzXEkhDNVq2xxhopVKT)
 
-👉 Открыть демо (https://portfolio-liard-three-m6tyf36olx.vercel.app/)
+## 📬 Contact Me
+* 🌐 GitHub: [Max Tafrov](https://github.com/usernamehttps://github.com/MaxTafrov)
+* ✉️ Email: loler20017@gmail.com
+* 💬 Telegram: [@maksudaww](https://t.me/maksudaww)
+* 🔗 LinkedIn: [Maxim Tafrov](https://www.linkedin.com/in/maxim-tafrov-56a243378/)
 
-📬 Контакты
-
-🌐 GitHub [Max Tafrov](https://github.com/usernamehttps://github.com/MaxTafrov)
-
-✉️ Email loler20017@gmail.com
-
-💬 Telegram [@maksudaww](https://t.me/maksudaww)
-
-🔗 LinkedIn [Maxim Tafrov](https://www.linkedin.com/in/maxim-tafrov-56a243378/)
-
-⭐ Не забудь поставить звёздочку этому репозиторию, если он тебе понравился! 😉
+## ⭐ If you like this project, consider giving it a star — it really helps and keeps me motivated! 😉
