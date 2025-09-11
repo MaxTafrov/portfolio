@@ -18,10 +18,12 @@ const Main = props => {
 				<MainText>Git/GitHub</MainText>
 				<MainText>English ({t('home.intermediate')})</MainText>
 				<MainTitle>{t('home.projects')}</MainTitle>
-				<MainText>ToDo App --- {/*link*/}</MainText>
-				<MainText>Portfolio --- {/*link*/}</MainText>
-				<MainText>Mini-game --- {/*link*/}</MainText>
-				<MainText>Movie Search --- {/*link*/}</MainText>
+				<MainText>
+					ToDo App --- https://todo-list-iota-five-17.vercel.app
+				</MainText>
+				<MainText>
+					Portfolio --- https://github.com/MaxTafrov/portfolio
+				</MainText>
 			</MainContainer>
 		</>
 	)
