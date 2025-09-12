@@ -210,6 +210,11 @@ const css = {
 			margin: 5px;
 		}
 	`,
+	Links: styled.a`
+		text-decoration: none;
+		color: var(--text-color);
+		margin: 0 10px;
+	`,
 }
 
 export default css

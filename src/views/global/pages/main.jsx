@@ -2,7 +2,7 @@ import React from 'react'
 import css from '../../../styles/styles.css'
 import { useTranslation } from 'react-i18next'
 
-const { MainContainer, MainText, MainTitle } = css
+const { MainContainer, MainText, MainTitle, Links } = css
 const Main = props => {
 	const { t } = useTranslation()
 
@@ -10,7 +10,7 @@ const Main = props => {
 		<>
 			<MainContainer>
 				<MainTitle>{t('home.skills')}</MainTitle>
-				<MainText>HTML / CSS</MainText>
+				<MainText>HTML / CSS (Grid, Flex-box)</MainText>
 				<MainText>JavaScript (ES6+)</MainText>
 				<MainText>
 					React ({t('home.elementary')}/{t('home.pre-intermediate')})
@@ -19,10 +19,26 @@ const Main = props => {
 				<MainText>English ({t('home.intermediate')})</MainText>
 				<MainTitle>{t('home.projects')}</MainTitle>
 				<MainText>
-					ToDo App --- https://todo-list-iota-five-17.vercel.app
+					<Links
+						href='https://todo-list-iota-five-17.vercel.app'
+						target='_blank'
+					>
+						{' '}
+						Todo List App
+					</Links>
 				</MainText>
 				<MainText>
-					Portfolio --- https://github.com/MaxTafrov/portfolio
+					<Links href='https://github.com/MaxTafrov/portfolio' target='_blank'>
+						Portfolio
+					</Links>
+				</MainText>
+				<MainText>
+					<Links
+						href='https://minesweeper-liard-ten.vercel.app'
+						target='_blank'
+					>
+						Minesweeper
+					</Links>
 				</MainText>
 			</MainContainer>
 		</>
