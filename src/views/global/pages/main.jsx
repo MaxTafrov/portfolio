@@ -39,6 +39,11 @@ const Main = props => {
 					>
 						Minesweeper
 					</Links>
+					<MainText>
+						<Links href='https://weathery-app-livid.vercel.app' target='_blank'>
+							Weather App
+						</Links>
+					</MainText>
 				</MainText>
 			</MainContainer>
 		</>
